@@ -4,6 +4,8 @@ const path = require('path')
 
 let win
 
+//ein sinnloser Kommentar
+
 let calculateMonthlyPayment = function(principal, years, rate) {
     let monthlyRate = 0;
     if (rate) {
